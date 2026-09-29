@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HoloClock</string>
+    <string name="title_theme_switch">Theme Switch</string>
+    <string name="status_welcome">Welcome to HoloClock</string>
+    <string name="btn_grant_permission">Grant Permissions</string>
+    <string name="guide_add_widget">How to add HoloClock to home screen:\n\n1. Long press empty space on desktop\n2. Select "Widgets"\n3. Find "Holo Clock"\n4. Drag to desktop</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_trans">Trans Mode</string>
+    <string name="theme_glass">Glass Mode</string>
+    <string name="permission_guide_title">Welcome to Holo Clock</string>
+    <string name="permission_guide_message">To ensure stable widget operation, please grant these permissions:\n\n1. Ignore battery optimization (prevent background cleanup)\n2. Auto-start permission (restore widget on boot)</string>
+    <string name="permission_guide_positive">Start Setup</string>
+    <string name="permission_guide_negative">Later</string>
+    <string name="autostart_guide_title">Enable Auto-start Permission</string>
+    <string name="autostart_guide_message">Go to System Settings → App Management → Holo Clock → Auto-start Management, enable permission.\n\nPaths vary by device brand.</string>
+    <string name="autostart_guide_positive">Got it</string>
+    <string name="status_permission_granted">Permissions Granted</string>
+    <string name="status_need_permission">Please Grant Permissions</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ホロクロク</string>
+    <string name="title_theme_switch">テーマを変更します</string>
+    <string name="status_welcome">ようこそ、ホロクロクへ</string>
+    <string name="btn_grant_permission">アクセス権の付与をお願いします</string>
+    <string name="guide_add_widget">ホーム画面にホロクロクを追加する方法：\n\n1. デスクトップの空き領域を長押し\n2. 「ウィジェット」を選択\n3. 「ホロクロク」を検索\n4. デスクトップにドラッグ</string>
+    <string name="theme_dark">闇モード</string>
+    <string name="theme_light">亮モード</string>
+    <string name="theme_trans">透明モード</string>
+    <string name="theme_glass">ガラスモード</string>
+    <string name="permission_guide_title">ようこそ、ホロクロクへ</string>
+    <string name="permission_guide_message">ウィジェット安定動作のために権限を許可してください：\n\n1. バッテリー最適化を無視します（バックグラウンドクリア防止）\n2. 自動起動権限（起動時にウィジェット復元）</string>
+    <string name="permission_guide_positive">セットアップ開始</string>
+    <string name="permission_guide_negative">お待ちください</string>
+    <string name="autostart_guide_title">自動起動権限を有効化</string>
+    <string name="autostart_guide_message">システム設定 → アプリ管理 → ホロクロク → 自動起動管理へ移動します、権限を有効化になります。\n\n パスは端末メーカーより異なります。 </string>
+    <string name="autostart_guide_positive">了解</string>
+    <string name="status_permission_granted">権限付与済み</string>
+    <string name="status_need_permission">権限を付与してください</string>
+</resources>

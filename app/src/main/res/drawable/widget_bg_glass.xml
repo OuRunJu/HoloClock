@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Layer 1: 最底层的深色长投影 (营造悬浮感) -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="24dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#40FEFEFE"
+                android:endColor="#40AAAAAA" />
+        </shape>
+    </item>
+
+    <!-- Layer 2: 主体面板 (半透明白色磨砂玻璃) -->
+    <item
+        android:left="0dp"
+        android:top="0dp"
+        android:right="0dp"
+        android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="24dp" />
+            <gradient
+                android:angle="270"
+                android:startColor="#40FEFEFE"
+                android:endColor="#40AAAAAA" />
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp" />
+        </shape>
+    </item>
+    <!-- Layer 3: 外部边框 (包裹整个时钟的外边缘) -->
+    <item
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp"
+        android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="24dp" />
+            <stroke
+                android:width="1sp"
+                android:color="#F0FFFFFF" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <!-- Layer 4: 内部顶部高光 (模拟环境光反射) -->
+    <item>
+        <rotate
+            android:fromDegrees="0"
+            android:pivotX="50%"
+            android:pivotY="0">
+            <shape android:shape="rectangle">
+                <size android:height="8dp"/>
+                <corners
+                    android:radius="24dp"
+                    android:topLeftRadius="24dp"
+                    android:topRightRadius="24dp"
+                    android:bottomLeftRadius="24dp"
+                    android:bottomRightRadius="24dp" />
+                <gradient
+                    android:angle="270"
+                    android:startColor="#20FFFFFF"
+                    android:endColor="#20AAAAAA"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

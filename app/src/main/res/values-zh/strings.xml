@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HoloClock</string>
+    <string name="title_theme_switch">主题切换</string>
+    <string name="status_welcome">欢迎使用HoloClock</string>
+    <string name="btn_grant_permission">授予必要权限</string>
+    <string name="guide_add_widget">学习如何在桌面添加HoloClock：\n\n1. 长按桌面空白处\n2. 选择「小部件」\n3. 找到「Holo Clock」\n4. 拖动到桌面即可</string>
+    <string name="theme_dark">深色模式</string>
+    <string name="theme_light">浅色模式</string>
+    <string name="theme_trans">透明模式</string>
+    <string name="theme_glass">玻璃模式</string>
+    <string name="permission_guide_title">欢迎使用 Holo Clock</string>
+    <string name="permission_guide_message">为确保小部件稳定运行，请授予以下权限：\n\n1. 电池优化忽略（防止被系统后台清理）\n2. 自启动权限（开机自动恢复小部件）</string>
+    <string name="permission_guide_positive">开始设置</string>
+    <string name="permission_guide_negative">稍后再说</string>
+    <string name="autostart_guide_title">开启自启动权限</string>
+    <string name="autostart_guide_message">请前往系统设置 → 应用管理 → Holo Clock → 自启动管理，开启权限。\n\n不同品牌手机路径略有差异，请根据提示操作。</string>
+    <string name="autostart_guide_positive">我知道了</string>
+    <string name="status_permission_granted">权限已授予</string>
+    <string name="status_need_permission">请授予必要权限</string>
+</resources>

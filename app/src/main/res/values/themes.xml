@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 通用主题（供 Manifest 使用） -->
+    <style name="Theme.HoloClock" parent="Theme.HoloClock.Dark" />
+
+    <!-- 深色主题（默认） -->
+    <style name="Theme.HoloClock.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#33B5E5</item>
+        <item name="colorPrimaryVariant">#1976D2</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:statusBarColor">#000000</item>
+    </style>
+
+    <!-- 浅色主题 -->
+    <style name="Theme.HoloClock.Light" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF47BBE6</item>
+        <item name="colorPrimaryVariant">#FF47BBE6</item>
+        <item name="colorOnPrimary">#FF888888</item>
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="android:windowBackground">#FFFDFDFD</item>
+        <item name="android:statusBarColor">#FF47BBE6</item>
+    </style>
+
+    <!-- 彩透主题 -->
+    <style name="Theme_HoloClock_Transparent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#DDFFFFFF</item>
+        <item name="colorPrimaryVariant">#DDFFFFFF</item>
+        <item name="colorOnPrimary">#DDFFFFFF</item>
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="android:windowBackground">#DDFFFFFF</item>
+        <item name="android:statusBarColor">#E5E5E5E5</item>
+    </style>
+
+    <!-- 玻璃主题 -->
+
+    <style name="Theme.HoloClock.Glass" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#BFFEFEFE</item>
+        <item name="colorPrimaryVariant">#BFFEFEFE</item>
+        <item name="colorOnPrimary">#BFFEFEFE</item>
+        <item name="colorSecondary">#03DAC5</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="android:windowBackground">#BFFEFEFE</item>
+        <item name="android:statusBarColor">#BFFEFEFE</item>
+    </style>
+
+</resources>
